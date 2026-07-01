@@ -36,8 +36,8 @@ def find_truss_combinations(target, lengths, max_tolerance=100):
 # --- STREAMLIT UI ---
 st.set_page_config(page_title="Pro Truss Calculator", page_icon="🏗️", layout="centered")
 
-st.title("🏗️ Professional Truss Configurator")
-st.write("Select your truss type, manage stock, and find the cleanest build blueprints in millimeters.")
+st.title("🏗️ Truss Combo")
+st.write("Select your truss type, available stock and get a combo.")
 
 # --- SIDEBAR: TRUSS INVENTORY CONFIGURATION ---
 st.sidebar.header("📦 Inventory Management")
