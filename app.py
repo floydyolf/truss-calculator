@@ -34,7 +34,7 @@ def find_truss_combinations(target, lengths, max_tolerance=100):
     return valid_results
 
 # --- STREAMLIT UI ---
-st.set_page_config(page_title="Pro Truss Calculator", page_icon="🏗️", layout="centered")
+st.set_page_config(page_title="Truss Calculator", page_icon="🏗️", layout="centered")
 
 st.title("🏗️ Truss Combo")
 st.write("Select your truss type, available stock and get a combo.")
